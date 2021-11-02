@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Sans Regular", sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background: #bbb;
+}
+
+body li {
+  list-style: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+nav img {
+  margin: 5px;
+}
+
+nav .menu {
+  text-align: center;
+}
+
+nav ul {
+  background: #ddd;
+  border-radius: 7px;
+  padding: 10px;
+  height: 100px;
+}
+
+nav li {
+  display: inline;
+  margin: 5px;
+}
+
+nav a {
+  color: #666666;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#evo-ed,
+#evo-med-ed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #666666;
+  text-align: center;
+}
+
+#evo-ed p,
+#evo-med-ed p {
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#evo-ed #evo-ed-cases,
+#evo-ed #evo-med-ed-cases,
+#evo-med-ed #evo-ed-cases,
+#evo-med-ed #evo-med-ed-cases {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#evo-ed li,
+#evo-med-ed li {
+  width: 150px;
+}
+
+#evo-ed li img,
+#evo-med-ed li img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+footer {
+  color: #686964;
+  background: #e4e8de;
+  border-radius: 7px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer li {
+  display: inline;
+  margin: 5px;
+}
+
+footer li a {
+  color: black;
+}
+
+footer li a:hover {
+  color: gray;
+}
+
+section,
+article {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+section .cases-display,
+article .cases-display {
+  -webkit-box-flex: 20px;
+      -ms-flex: 20px 1 1;
+          flex: 20px 1 1;
+  margin-left: 10px;
+}
+
+section .description-display,
+article .description-display {
+  -webkit-box-flex: 20px;
+      -ms-flex: 20px 2 1;
+          flex: 20px 2 1;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header div {
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header li {
+  display: inline;
+  margin: 20px;
+}
+
+header a {
+  color: #ccc;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+article .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .description img {
+  width: 100%;
+}
+
+article .description-display {
+  -webkit-box-flex: 20px;
+      -ms-flex: 20px 2 1;
+          flex: 20px 2 1;
+}
+
+article .case-image-display {
+  -webkit-box-flex: 20px;
+      -ms-flex: 20px 1 1;
+          flex: 20px 1 1;
+  margin-left: 10px;
+}
+
+article .case-resources {
+  margin-top: 15px;
+}
+
+article .case-resources li {
+  display: inline-block;
+}
+
+article .case-resources a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+}
+
+article .case-resources a div {
+  width: 100px;
+}
+
+article .case-resources a .resource-image-div {
+  width: 50px;
+}
+
+article .case-resources a img {
+  width: 100%;
+}
+
+article .case-links {
+  background: white;
+  border-radius: 7px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  row-gap: 20px;
+}
+
+article .case-links a {
+  color: #666666;
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.css.map */

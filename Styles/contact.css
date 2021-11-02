@@ -1,0 +1,31 @@
+article {
+  background: #666;
+  padding: 20px;
+}
+
+.project-team-member {
+  background: white;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 1.5px;
+}
+
+.team-member-image {
+  margin-right: 10px;
+  width: 200px;
+}
+
+.team-member-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.top-team-member {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.bottom-team-member {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
